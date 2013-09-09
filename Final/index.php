@@ -13,10 +13,10 @@
 		
 		$msg = 'Hello ';
 		$name = 'Jill';
-		
+		include 'something.php';
 		?>
 	
-	<span class="label label-success"><? echo $msg . $name; ?></span>
+	<span class="label label-success"><?= $msg . $name ?></span>
 	
     <script src="//code.jquery.com/jquery.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
