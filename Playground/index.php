@@ -18,6 +18,13 @@
     </style>
   </head>
   <body>
+  	
+  		<? 
+		
+		include 'navbar.php';
+		
+		?>
+		
     <h1>Hello world!</h1>
     <h3>Welcome class of 2013 to Web Server Programming</h3>
     
