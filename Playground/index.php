@@ -1,29 +1,26 @@
+<?
+	$locations = 'home';
+	$name = $pages[$location];
+	$msg = "Hello $name[title]";
+	$pages = array(
+			'home'=>array(
+				'url'=>'index.php', 
+				'section'=> 'home',
+				'title'=>'Home'), 
+			'links'=>'links.php','contact'=>'contact.php');
+?>
 <!DOCTYPE html>
 <html>
   <head>
     <title>Bootstrap 101 Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
-      <script src="../../assets/js/respond.min.js"></script>
-    <![endif]-->
-    <style>
-    	.row div{
-    		background-color: #AACCCC;
-    	}
-    </style>
   </head>
   <body>
-  	
-  		<? 
-		
-		include 'navbar.php';
-		
-		?>
+  	<div class="container">
+  	<pre><?print_r($pages);?></pre>
+  	</div>
+  	<? include 'navbar.php'; ?>
 		
     <h1>Hello world!</h1>
     <h3>Welcome class of 2013 to Web Server Programming</h3>
