@@ -58,45 +58,49 @@
 	  	[{"url":"index.php","section":"home","title":"Home"},{"url":"links.php","section":"links","title":"Links"},{"url":"contact.php","section":"contact","title":"Contact Us"},{"url":"store.php","section":"store","title":"Buy our stuff"}]  		
 	  	</pre>
  		  	<div class="container">
- 		<div class="jumbotron">
+  		<div class="well">
 		    <h1>Hello World</h1>
-		    
-		    <p>Welcome class of 2013 to Web Server Programming</p>
-  			<a class="btn btn-lg btn-success">Learn More</a>
+		    <p>Welcome class of 2013 to Web Server Programming <a class="btn btn-default">Learn More</a></p>
+  			
   		</div>
-  		
   		<div class="row">
-  			<div class="col-sm-6 col-md-4">
-			  <h2>Heading</h2>
-	          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-	          <p><a class="btn btn-primary" href="#">View details »</a></p>
-			</div>
-   			<div class="col-sm-6 col-md-4">
-	          <h2>Important Points</h2>
-	          <ul>
-	          	<li>The three main links in the navbar work</li>
-	          	<li>They are all centralized in one file</li>
-	          	<li>They change apearance to show you which page you are on.</li>
-	          	<li>These colunms start as three columns then reduce as the browser shrinks</li>
-			  </ul>
-	          <p><a class="btn btn-primary" href="#">View details »</a></p>
-			</div>
- 			<div class="col-sm-6 col-md-4">
-	          <h2>Heading</h2>
-	          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-	          <p><a class="btn btn-primary" href="#">View details »</a></p>
+  			<div class="col-lg-8 col-lg-offset-2"> 
+		  		<h2>Contact Us</h2>
+		  		<form class="form-horizontal">
+				  <div class="form-group">
+				    <label for="inputEmail1" class="col-md-2 control-label">Your Email</label>
+				    <div class="col-md-10">
+				      <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="txtMsg" class="col-md-2 control-label">Message</label>
+				    <div class="col-md-10">
+				      <textarea class="form-control" id="txtMsg" placeholder="Boy do I love you guys"></textarea>
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <div class="col-md-offset-2 col-md-10">
+				      <input type="submit" class="btn" value="Submit" />
+				    </div>
+				  </div>  			
+		  		</form>
   			</div>
   		</div>
-  	</div>
+  		      
+   	</div>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+     <script src="Scripts/main.js"></script>
     <script type="text/javascript">
     	$(function(){
-    		$(".nav .home").addClass("active");
+    		$(".nav .contact").addClass("active");
     	});
     </script>
- </body>
+  </body>
 </html>
+
+
 
 
 
