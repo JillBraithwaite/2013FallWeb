@@ -21,7 +21,7 @@ class Users {
         
         static public function Save($row)
         {
-                $sql =         " Insert Into 2013Fall_Users (FirstName, LastName, Password, UserType) "
+                $sql =         " Insert Into 2013Web_Users (FirstName, LastName, Password, UserType) "
                         .        " Values ('$row[FirstName]', '$row[LastName]', '$row[Password]', '$row[UserType]') ";
                 $conn = GetConnection();
                 $conn->query($sql);

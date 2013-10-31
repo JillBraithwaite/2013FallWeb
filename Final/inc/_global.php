@@ -7,7 +7,7 @@ include_once __DIR__ . '/../Models/Users.php';
 function GetConnection()
 {
         global $sql_password;
-        $conn = new mysqli('localhost', 'plotkinm', $sql_password, 'plotkinm_db');
+        $conn = new mysqli('localhost', 'n02712300', $sql_password, 'n02712300_db');
         return $conn;
 }
 

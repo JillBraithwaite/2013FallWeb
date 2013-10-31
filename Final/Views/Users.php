@@ -12,7 +12,7 @@
 		</ul>
 	<? endif; ?>
 	
-	<form action ="?action-save" method="post" clas="form=horizontal row">
+	<form action ="?action-save" method="post" class="form=horizontal row">
 		<div class ="form-group <?= isset($erros ['FirstName']) ? 'has-error' : '' ?>">
 			<label for="FirstName" class="col-sm2 control-label">First Name</label>
 			<div class="col-sm 10">
